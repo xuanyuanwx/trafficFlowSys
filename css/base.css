@@ -1,0 +1,45 @@
+/* reset */
+body,dl,dd,ul,ol,figure ,h1,h2,h3,h4,h5,h6,p,pre,blockquote,
+form,fieldset,legend,input,button,select,textarea{
+    padding: 0;
+    margin: 0;
+}
+article,aside,details,figcaption,figure,footer,header,
+hgroup,nav,section{
+    display: block;
+}
+textarea{
+    resize:none;
+}
+a,button{
+    cursor:pointer;
+}
+a,a:hover,a:visited,a:link{
+    text-decoration: none;
+}
+img,fieldset {
+    border: 0 none;
+    display: block;
+}
+ul,ol,li{
+    list-style: none;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: "微软雅黑",Arial,"Helvetica Neue",sans-self;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.center{
+    width: 1000px;
+    overflow: hidden;
+	margin:0 auto;
+	margin-top:71px;
+}
